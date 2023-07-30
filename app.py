@@ -11,7 +11,7 @@ st.write("""
 symbol = "AAPL"
 symbol = st.selectbox(
     'Select Stock Symbol',
-    ('AAPL', 'GOOG', 'TSLA', 'MSFT', 'NFLX')
+    ('AAPL', 'GOOG', 'TSLA', 'MSFT', 'NFLX', 'MCHP')
 )
 ticker_data = yf.Ticker(symbol)
 import datetime
